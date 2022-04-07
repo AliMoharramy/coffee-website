@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Coffee Website</title>
+  </head>
+  <body>
+    <div class="loadcoffee" id="loadcoffee">
+      <img src="assets/img/loadcoffee.gif" alt="" class="loadcoffee__img" />
+    </div>
+    <header class="header" id="header">
+      <nav class="header__nav container">
+        <a href="#" class="header__logo">
+          <img src="assets/img/logo.png" alt="" class="header__logo-img" />
+          Coffee.
+        </a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#premium" class="nav__link">Premium</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="home__container">
+          <div class="home__text container">
+            <h1 class="home__title">
+              Choose Your Favorite Coffee And Enjoy <span>.</span>
+            </h1>
+            <p class="home__title-dis">Buy the best and delicious coffees.</p>
+            <div class="home__data">
+              <div class="home__group">
+                <h2 class="home__group-title">120K</h2>
+                <h3 class="home__group-data">Testimonials</h3>
+                <p class="home__grop-description">
+                  Testimonials from varius customers who trust us.
+                </p>
+              </div>
+
+              <div class="home__group">
+                <h2 class="home__group-title">340+</h2>
+                <h3 class="home__group-data">Exclusive Product</h3>
+                <p class="home__grop-description">
+                  Premium preparation with quality ingredients.
+                </p>
+              </div>
+            </div>
+            <a href="#specialty">
+              <img src="assets/img/scroll.png" alt="" class="home__scroll" />
+            </a>
+          </div>
+        </div>
+        <img src="assets/img/home.png" alt="" class="home__img" />
+      </section>
+
+      <section class="specialty">
+        <div class="specialty__detail container">
+          <div class="specialty__box">
+            <h2 class="specialty__detail-title title">
+              Specialty coffees that make you happy and cheer you up!
+            </h2>
+            <a href="" class="button specialty__button">see more</a>
+          </div>
+          <div class="specialty__category">
+            <div class="specialty__category-item">
+              <img
+                src="assets/img/specialty1.png"
+                alt=""
+                class="specialty__category-img"
+              />
+              <h3 class="specialty__category-title">Selected coffee</h3>
+              <p class="specialty__category-detail">
+                We select the best premium coffee, for a true taste.
+              </p>
+            </div>
+            <div class="specialty__category-item">
+              <img
+                src="assets/img/specialty2.png"
+                alt=""
+                class="specialty__category-img"
+              />
+              <h3 class="specialty__category-title">Delicious cookies</h3>
+              <p class="specialty__category-detail">
+                Enjoy your coffee with some hot cookies.
+              </p>
+            </div>
+            <div class="specialty__category-item">
+              <img
+                src="assets/img/specialty3.png"
+                alt=""
+                class="specialty__category-img"
+              />
+              <h3 class="specialty__category-title">Enjoy at Home</h3>
+              <p class="specialty__category-detail">
+                Enjoy the best coffee in the comfort of your home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="products__container container">
+          <h2 class="products__title title">
+            Choose our delicious and best products.
+          </h2>
+          <ul class="products__select">
+            <li
+              class="products__select-item products__select-line"
+              id="delicacies-selector"
+            >
+              <h3 class="products__select-title selected-product">
+                New Delicacies
+              </h3>
+              <span class="products__select-info"> 3 products </span>
+            </li>
+
+            <li
+              class="products__select-item products__select-line"
+              id="coffee-selector"
+            >
+              <h3 class="products__select-title">Hot Coffee</h3>
+              <span class="products__select-info"> 4 products </span>
+            </li>
+
+            <li class="products__select-item" id="cake-selector">
+              <h3 class="products__select-title">Cakes And Delicacies</h3>
+              <span class="products__select-info"> 4 products </span>
+            </li>
+          </ul>
+          <div class="products__items container">
+            <article class="products__card delicacies cards_show">
+              <div class="products__shape">
+                <img
+                  src="assets/img/delicacies1.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$5</h2>
+                <h3 class="products__name">Cookies</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card delicacies cards_show">
+              <div class="products__shape">
+                <img
+                  src="assets/img/delicacies2.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$6</h2>
+                <h3 class="products__name">Croissant</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card delicacies cards_show">
+              <div class="products__shape">
+                <img
+                  src="assets/img/delicacies3.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$4</h2>
+                <h3 class="products__name">Croissant</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="assets/img/coffee1.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$7</h2>
+                <h3 class="products__name">Black Coffee</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="assets/img/coffee2.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$12</h2>
+                <h3 class="products__name">Pure Coffee</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="assets/img/coffee3.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$9</h2>
+                <h3 class="products__name">Milk Coffee</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card coffee">
+              <div class="products__shape">
+                <img
+                  src="assets/img/coffee4.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$9</h2>
+                <h3 class="products__name">Moka Coffee</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card cake">
+              <div class="products__shape">
+                <img
+                  src="assets/img/cake1.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$6</h2>
+                <h3 class="products__name">Cream Cake</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card cake">
+              <div class="products__shape">
+                <img
+                  src="assets/img/cake2.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$5</h2>
+                <h3 class="products__name">Chocolate Croissant</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card cake">
+              <div class="products__shape">
+                <img
+                  src="assets/img/cake3.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$15</h2>
+                <h3 class="products__name">Pancake</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+
+            <article class="products__card cake">
+              <div class="products__shape">
+                <img
+                  src="assets/img/cake4.png"
+                  alt=""
+                  class="products__image"
+                />
+              </div>
+              <div class="products__data">
+                <h2 class="products__price">$12</h2>
+                <h3 class="products__name">Milk Cake</h3>
+                <button class="products__data-btn">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="premium" id="premium">
+        <div class="premium__container container">
+          <h2 class="premium__title title">
+            We offer a premium and better quality preparation just for you!
+          </h2>
+          <div class="premium__sell">
+            <div class="premium__img">
+              <img
+                src="assets/img/quality1.png"
+                alt=""
+                class="premium__img-big"
+              />
+              <img
+                src="assets/img/quality2.png"
+                alt=""
+                class="premium__img-small"
+              />
+            </div>
+            <div class="premium__data">
+              <h1 class="premium__data-title">Premium Coffee</h1>
+              <h2 class="premium__data-price">$94.99</h2>
+              <span>Especial Price</span>
+              <p class="premium__data-info">
+                We are delighted with our coffee.Thats why you get the best
+                premium coffee plus the kettle made of resistant materials that
+                you see in the image, for a special price.
+              </p>
+              <div class="premium__button">
+                <button class="premium__butto-buy button">buy now</button>
+                <a href="#" class="premium__button-see">
+                  see more
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo">
+        <div class="logo__container container">
+          <img src="assets/img/logocoffee1.png" alt="" class="logo__image" />
+          <img src="assets/img/logocoffee2.png" alt="" class="logo__image" />
+          <img src="assets/img/logocoffee3.png" alt="" class="logo__image" />
+          <img src="assets/img/logocoffee4.png" alt="" class="logo__image" />
+          <img src="assets/img/logocoffee5.png" alt="" class="logo__image" />
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <div class="blog__container container">
+          <h2 class="blog__title title">
+            Our Blogs Coffee with trending topic for this week.
+          </h2>
+          <div class="blog__posts">
+            <article class="blog__card">
+              <div class="blog__card-img">
+                <img src="assets/img/blog1.png" alt="" class="blog__img" />
+                <a href="#" class="blog__card-btn">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+              </div>
+              <div class="blog__card-data">
+                <h2 class="blog__card-title">10 Coffee Recommendations</h2>
+                <p class="blog__card-info">
+                  The blog about coffee will be help you a lot about how it is
+                  prepared, its waiting time, for a good quality coffee.
+                </p>
+                <div class="blog__card-view">
+                  <div class="blog__card-reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>12</span>
+                  </div>
+                  <div class="blog__card-reaction">
+                    <i class="bx bx-show"></i>
+                    <span>76,5K</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="blog__card">
+              <div class="blog__card-img">
+                <img src="assets/img/blog2.png" alt="" class="blog__img" />
+                <a href="#" class="blog__card-btn">
+                  <i class="bx bx-right-arrow-alt"></i>
+                </a>
+              </div>
+              <div class="blog__card-data">
+                <h2 class="blog__card-title">12 Benefits of Driking Coffee</h2>
+                <p class="blog__card-info">
+                  The blog about coffee will be help you a lot about how it is
+                  prepared, its waiting time, for a good quality coffee.
+                </p>
+                <div class="blog__card-view">
+                  <div class="blog__card-reaction">
+                    <i class="bx bx-comment"></i>
+                    <span>45</span>
+                  </div>
+                  <div class="blog__card-reaction">
+                    <i class="bx bx-show"></i>
+                    <span>356,5K</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container container">
+        <h1 class="footer__title">Coffee.</h1>
+        <div class="footer__contact">
+          <div class="footer__contact-data">
+            <span>Subscribe to our newsletter. </span>
+            <div class="footer__email">
+              <input
+                type="email"
+                class="email"
+                placeholder="Your email address"
+              />
+              <button class="footer__email-btn">
+                <i class="bx bx-right-arrow-alt"></i>
+              </button>
+            </div>
+          </div>
+          <div class="footer__contact-data">
+            <h2>Address</h2>
+            <p class="footer__address-information">
+              9876 Hacienda Av. Hafez, La Libertad 123, Iran
+            </p>
+          </div>
+          <div class="footer__contact-data">
+            <h2>Contact</h2>
+            <p class="footer__contact-info">
+              +987654321 <br />
+              Coffee@gmail.com
+            </p>
+          </div>
+          <div class="footer__contact-data">
+            <h2>Office</h2>
+            <p class="footer__office-info">
+              Monday - Saturday <br />
+              9AM - 10PM
+            </p>
+          </div>
+        </div>
+        <div class="footer__social">
+          <ul class="footer__social-group">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </ul>
+          <span class="footer__copy"> ©AMH, All right reserved </span>
+        </div>
+      </div>
+      <a href="#home" class="moveup__btn">
+        <i class="bx bx-up-arrow-alt"></i>
+      </a>
+    </footer>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
